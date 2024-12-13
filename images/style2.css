@@ -1,0 +1,37 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    justify-content: flex-end;
+    justify-content: baseline;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    border: 20px dotted violet;
+    flex-wrap: wrap;
+    flex-wrap:nowrap ;
+}
+.box{
+width: 150px;
+height: 150px;
+border: 2px solid black;
+border-radius: 20px;
+font-size: 8em;
+text-align: center;
+}
+#box1{
+background-color: red;
+
+}
+#box2{
+background-color: yellowgreen; 
+
+}
+#box3{
+    background-color: aqua;
+
+}
+#box4{
+    
+background-color: blueviolet;
+}
